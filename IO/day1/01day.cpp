@@ -27,9 +27,9 @@ int main(){
 
     //不缓存大小为0
     //未使用的不缓存
-    printf("输出不缓存的大小：%d\n",stderr->_IO_buf_end - stderr->_IO_buf_base);
+    printf("输出不缓存的大小：%d\n",stderr->_IO_buf_end - stderr->_IO_buf_base);//0
     //使用过后
     perror("error");
-    printf("输出不缓存的大小：%d\n",stderr->_IO_buf_end - stderr->_IO_buf_base);
+    printf("输出不缓存的大小：%d\n",stderr->_IO_buf_end - stderr->_IO_buf_base);//0
     return 0;
 }
