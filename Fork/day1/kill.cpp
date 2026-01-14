@@ -2,6 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
+    //test
     while(1)
     {
         //测试kill指令
